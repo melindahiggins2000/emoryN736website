@@ -1,5 +1,9 @@
 project:
   type: website
+  output-dir: docs
+  render: 
+    - "*.qmd"
+    - "!archived/"
 
 website:
   title: "Emory NRSG 736: Quantitative Analysis of Clinical Research Data"
