@@ -7,6 +7,7 @@ project:
 
 website:
   title: "Emory NRSG 736: Quantitative Analysis of Clinical Research Data"
+  site-url: https://melindahiggins2000.github.io/emoryN736website/
   description: "Emory NRSG 736: Quantitative Analysis of Clinical Research Data"
   
   sidebar:
