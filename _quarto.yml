@@ -2,9 +2,14 @@ project:
   type: website
 
 website:
-  title: "emoryN736website"
-  navbar:
-    left:
+  title: "Emory NRSG 736: Quantitative Analysis of Clinical Research Data"
+  description: "Emory NRSG 736: Quantitative Analysis of Clinical Research Data"
+  
+  sidebar:
+    search: true
+    logo: HexStickers_N736_crop.png
+    style: "docked"
+    contents:
       - href: index.qmd
         text: Home
       - about.qmd

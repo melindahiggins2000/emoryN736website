@@ -1,5 +1,5 @@
 ---
-title: "emoryN736website"
+title: "Emory NRSG 736: Quantitative Analysis of Clinical Research Data"
 ---
 
 This is a Quarto website.
