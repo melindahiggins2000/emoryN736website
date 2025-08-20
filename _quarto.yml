@@ -7,23 +7,66 @@ project:
 
 website:
   title: "Emory NRSG 736: Quantitative Analysis of Clinical Research Data"
-  site-url: https://melindahiggins2000.github.io/emoryN736website/
+  site-url: https://emorynrsg736.netlify.app/
   description: "Emory NRSG 736: Quantitative Analysis of Clinical Research Data"
   
   sidebar:
     search: true
     logo: HexStickers_N736_crop.png
+    pinned: true
+    align: center
+    
     style: "docked"
     contents:
       - href: index.qmd
         text: Home
       - about.qmd
 
+  page-footer:
+    background: light
+    left: "[![](https://img.shields.io/badge/License-CC_BY--NC--ND_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)"
+    center: "Copyright 2025, [Melinda Higgins, PhD.](https://melindahiggins.netlify.app/) [{{< fa brands linkedin >}}](https://www.linkedin.com/in/melindahiggins2000/)  [{{< fa brands google-scholar >}}](https://scholar.google.com/citations?user=-4aU-VkAAAAJ&hl=en)  [{{< fa brands github >}}](https://github.com/melindahiggins2000)  [{{< fa envelope >}}](mailto:mkhiggi@emory.edu)"
+
 format:
   html:
-    theme: cosmo
+    theme: 
+      - yeti
     css: styles.css
     toc: true
-
+    toc-depth: 4
+    page-layout: full
+    code-link: true
+    knitr:
+      opts_chunk:
+        message: false
+        warning: false
+  pdf:
+    include-in-header: 
+      text: |
+        \usepackage{fancyhdr}
+        \pagestyle{fancy}
+        \renewcommand{\footrulewidth}{0.4pt}
+        \setlength{\headsep}{50pt}
+        \fancyhead[L]{\includegraphics[width=1cm]{HexStickers_N736_crop.png} \href{https://emorynrsg736.netlify.app/}{Emory NRSG 736}}
+        \fancyhead[R]{NRSG736: Quantitative Analysis of Clinical Research Data}
+        \fancyfoot[L]{\href{https://creativecommons.org/licenses/by-nc-nd/4.0/}{\includegraphics[width=2cm]{cc_by_nc_nd.png}}}
+        \fancyfoot[C]{\url{emorynrsg736.netlify.app/}}
+        \fancyfoot[R]{\thepage}
+        \usepackage{longtable}
+        \usepackage{fvextra}
+        \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
+        \DefineVerbatimEnvironment{OutputCode}{Verbatim}{breaklines,commandchars=\\\{\}}
+        \usepackage{lscape}
+        \newcommand{\blandscape}{\begin{landscape}}
+        \newcommand{\elandscape}{\end{landscape}}
+    include-before-body:
+      text: |
+        \RecustomVerbatimEnvironment{verbatim}{Verbatim}{
+          showspaces = false,
+          showtabs = false,
+          breaksymbolleft={},
+          breaklines
+          % Note: setting commandchars=\\\{\} here will cause an error 
+        }
 
 

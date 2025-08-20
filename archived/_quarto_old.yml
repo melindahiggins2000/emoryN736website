@@ -1,0 +1,39 @@
+project:
+  type: website
+  output-dir: docs
+  render: 
+    - "*.qmd"
+    - "!archived/"
+
+website:
+  title: "Emory NRSG 736: Quantitative Analysis of Clinical Research Data"
+  site-url: https://melindahiggins2000.github.io/emoryN736website/
+  description: "Emory NRSG 736: Quantitative Analysis of Clinical Research Data"
+  
+  sidebar:
+    search: true
+    logo: HexStickers_N736_crop.png
+    pinned: true
+    align: center
+    
+    style: "docked"
+    contents:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+
+  page-footer:
+    background: light
+    left: "[![](https://img.shields.io/badge/License-CC_BY--NC--ND_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)"
+    center: "Copyright 2025, [Melinda Higgins, PhD.](https://melindahiggins.netlify.app/) [{{< fa brands linkedin >}}](https://www.linkedin.com/in/melindahiggins2000/)  [{{< fa brands google-scholar >}}](https://scholar.google.com/citations?user=-4aU-VkAAAAJ&hl=en)  [{{< fa brands github >}}](https://github.com/melindahiggins2000)  [{{< fa envelope >}}](mailto:mkhiggi@emory.edu)"
+
+format:
+  html:
+    theme: 
+      - yeti
+      - mkh_styles.scss
+    css: styles.css
+    toc: true
+
+
+

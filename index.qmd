@@ -2,10 +2,30 @@
 title: "Emory NRSG 736: Quantitative Analysis of Clinical Research Data"
 ---
 
-This is a Quarto website.
+## This is a Quarto website.
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
 ```{r}
 1 + 1
 ```
+
+## Another section
+
+### subsection 1
+
+care summary stats
+
+```{r}
+summary(cars)
+```
+
+
+### subsection 2
+
+plots
+
+```{r}
+plot(pressure)
+```
+
