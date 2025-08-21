@@ -20,7 +20,36 @@ website:
     contents:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: week01.qmd
+        text: "Week 1: Welcome and Introduction"
+      - href: week02.qmd
+        text: "Week 2: Getting Started Table 1"
+      - href: week03.qmd
+        text: "Week 3: Correlation"
+      - href: week04.qmd
+        text: "Week 4: Bivariate Stats"
+      - href: week05.qmd
+        text: "Week 5: Effect Sizes"
+      - href: week06.qmd
+        text: "Week 6: Regression & Diagnostics"
+      - href: week07.qmd
+        text: "Week 7: Regression & ANOVA"
+      - href: week08.qmd
+        text: "Week 8: Multivariate Linear Regression"
+      - href: week09.qmd
+        text: "Week 9: Model Building"
+      - href: week10.qmd
+        text: "Week 10: Moderation"
+      - href: week11.qmd
+        text: "Week 11: Logistic Regression"
+      - href: week12.qmd
+        text: "Week 12: Dependent Repeated Measures"
+      - href: week13.qmd
+        text: "Week 13: Longitudinal Models"
+      - href: week14.qmd
+        text: "Week 14: More Than 1 Outcome"
+      - href: week15.qmd
+        text: "Week 15: Extended Topics"
 
   page-footer:
     background: light

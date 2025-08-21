@@ -1,0 +1,107 @@
+---
+title: "Emory NRSG 736: Quantitative Analysis of Clinical Research Data"
+subtitle: "Week 01: Welcome and Introductions"
+bibliography: ./packages.bib
+nocite: |
+  @*
+format:
+  html: default
+  pdf: default
+editor_options: 
+  chunk_output_type: console
+---
+
+\thispagestyle{fancy}
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      error = TRUE,
+                      message = FALSE,
+                      warning = FALSE)
+knitr::opts_chunk$set(
+  comment = '', fig.width = 6, fig.height = 6
+)
+```
+
+## Load some R packages
+
+```{r}
+library(palmerpenguins)
+library(dplyr)
+library(ggplot2)
+```
+
+```{r}
+ggplot(data = penguins,
+       aes(x = bill_length_mm,
+           y = bill_depth_mm,
+           color = species)) +
+  geom_point()
+```
+
+--- 
+
+\newpage
+
+## Placeholder boilerplate.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+```{r}
+1 + 1
+```
+
+--- 
+
+\newpage
+
+## Another section
+
+### subsection 1
+
+cars summary stats
+
+```{r}
+summary(cars)
+```
+
+
+### subsection 2
+
+plots
+
+```{r}
+plot(pressure)
+```
+
+
+---
+
+\newpage
+
+```{r echo=FALSE}
+knitr::write_bib(x = c(.packages()), 
+                 file = "packages.bib")
+```
+
+## R Code For This Module
+
+add later maybe
+
+---
+
+\newpage
+
+## References
+
+::: {#refs}
+:::
+
+---
+
+\newpage
+
+## Other Helpful Resources
+
+other stuff here maybe
+

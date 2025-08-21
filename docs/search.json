@@ -1,5 +1,565 @@
 [
   {
+    "objectID": "week15.html",
+    "href": "week15.html",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "",
+    "text": "library(palmerpenguins)\nlibrary(dplyr)\nlibrary(ggplot2)\n\n\nggplot(data = penguins,\n       aes(x = bill_length_mm,\n           y = bill_depth_mm,\n           color = species)) +\n  geom_point()",
+    "crumbs": [
+      "Week 15: Extended Topics"
+    ]
+  },
+  {
+    "objectID": "week15.html#load-some-r-packages",
+    "href": "week15.html#load-some-r-packages",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "",
+    "text": "library(palmerpenguins)\nlibrary(dplyr)\nlibrary(ggplot2)\n\n\nggplot(data = penguins,\n       aes(x = bill_length_mm,\n           y = bill_depth_mm,\n           color = species)) +\n  geom_point()",
+    "crumbs": [
+      "Week 15: Extended Topics"
+    ]
+  },
+  {
+    "objectID": "week15.html#placeholder-boilerplate.",
+    "href": "week15.html#placeholder-boilerplate.",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "Placeholder boilerplate.",
+    "text": "Placeholder boilerplate.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "Week 15: Extended Topics"
+    ]
+  },
+  {
+    "objectID": "week15.html#another-section",
+    "href": "week15.html#another-section",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "Another section",
+    "text": "Another section\nsubsection 1\ncars summary stats\n\nsummary(cars)\n\n     speed           dist       \n Min.   : 4.0   Min.   :  2.00  \n 1st Qu.:12.0   1st Qu.: 26.00  \n Median :15.0   Median : 36.00  \n Mean   :15.4   Mean   : 42.98  \n 3rd Qu.:19.0   3rd Qu.: 56.00  \n Max.   :25.0   Max.   :120.00  \n\n\nsubsection 2\nplots\n\nplot(pressure)",
+    "crumbs": [
+      "Week 15: Extended Topics"
+    ]
+  },
+  {
+    "objectID": "week15.html#r-code-for-this-module",
+    "href": "week15.html#r-code-for-this-module",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "R Code For This Module",
+    "text": "R Code For This Module\nadd later maybe",
+    "crumbs": [
+      "Week 15: Extended Topics"
+    ]
+  },
+  {
+    "objectID": "week15.html#references",
+    "href": "week15.html#references",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "References",
+    "text": "References\n\n\nHorst, Allison, Alison Hill, and Kristen Gorman. 2022. Palmerpenguins: Palmer Archipelago (Antarctica) Penguin Data. https://allisonhorst.github.io/palmerpenguins/.\n\n\nR Core Team. 2025. R: A Language and Environment for Statistical Computing. Vienna, Austria: R Foundation for Statistical Computing. https://www.R-project.org/.\n\n\nWickham, Hadley. 2016. Ggplot2: Elegant Graphics for Data Analysis. Springer-Verlag New York. https://ggplot2.tidyverse.org.\n\n\nWickham, Hadley, Winston Chang, Lionel Henry, Thomas Lin Pedersen, Kohske Takahashi, Claus Wilke, Kara Woo, Hiroaki Yutani, Dewey Dunnington, and Teun van den Brand. 2024. Ggplot2: Create Elegant Data Visualisations Using the Grammar of Graphics. https://ggplot2.tidyverse.org.\n\n\nWickham, Hadley, Romain François, Lionel Henry, Kirill Müller, and Davis Vaughan. 2023. Dplyr: A Grammar of Data Manipulation. https://dplyr.tidyverse.org.",
+    "crumbs": [
+      "Week 15: Extended Topics"
+    ]
+  },
+  {
+    "objectID": "week15.html#other-helpful-resources",
+    "href": "week15.html#other-helpful-resources",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "Other Helpful Resources",
+    "text": "Other Helpful Resources\nother stuff here maybe",
+    "crumbs": [
+      "Week 15: Extended Topics"
+    ]
+  },
+  {
+    "objectID": "week13.html",
+    "href": "week13.html",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "",
+    "text": "library(palmerpenguins)\nlibrary(dplyr)\nlibrary(ggplot2)\n\n\nggplot(data = penguins,\n       aes(x = bill_length_mm,\n           y = bill_depth_mm,\n           color = species)) +\n  geom_point()",
+    "crumbs": [
+      "Week 13: Longitudinal Models"
+    ]
+  },
+  {
+    "objectID": "week13.html#load-some-r-packages",
+    "href": "week13.html#load-some-r-packages",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "",
+    "text": "library(palmerpenguins)\nlibrary(dplyr)\nlibrary(ggplot2)\n\n\nggplot(data = penguins,\n       aes(x = bill_length_mm,\n           y = bill_depth_mm,\n           color = species)) +\n  geom_point()",
+    "crumbs": [
+      "Week 13: Longitudinal Models"
+    ]
+  },
+  {
+    "objectID": "week13.html#placeholder-boilerplate.",
+    "href": "week13.html#placeholder-boilerplate.",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "Placeholder boilerplate.",
+    "text": "Placeholder boilerplate.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "Week 13: Longitudinal Models"
+    ]
+  },
+  {
+    "objectID": "week13.html#another-section",
+    "href": "week13.html#another-section",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "Another section",
+    "text": "Another section\nsubsection 1\ncars summary stats\n\nsummary(cars)\n\n     speed           dist       \n Min.   : 4.0   Min.   :  2.00  \n 1st Qu.:12.0   1st Qu.: 26.00  \n Median :15.0   Median : 36.00  \n Mean   :15.4   Mean   : 42.98  \n 3rd Qu.:19.0   3rd Qu.: 56.00  \n Max.   :25.0   Max.   :120.00  \n\n\nsubsection 2\nplots\n\nplot(pressure)",
+    "crumbs": [
+      "Week 13: Longitudinal Models"
+    ]
+  },
+  {
+    "objectID": "week13.html#r-code-for-this-module",
+    "href": "week13.html#r-code-for-this-module",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "R Code For This Module",
+    "text": "R Code For This Module\nadd later maybe",
+    "crumbs": [
+      "Week 13: Longitudinal Models"
+    ]
+  },
+  {
+    "objectID": "week13.html#references",
+    "href": "week13.html#references",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "References",
+    "text": "References\n\n\nHorst, Allison, Alison Hill, and Kristen Gorman. 2022. Palmerpenguins: Palmer Archipelago (Antarctica) Penguin Data. https://allisonhorst.github.io/palmerpenguins/.\n\n\nR Core Team. 2025. R: A Language and Environment for Statistical Computing. Vienna, Austria: R Foundation for Statistical Computing. https://www.R-project.org/.\n\n\nWickham, Hadley. 2016. Ggplot2: Elegant Graphics for Data Analysis. Springer-Verlag New York. https://ggplot2.tidyverse.org.\n\n\nWickham, Hadley, Winston Chang, Lionel Henry, Thomas Lin Pedersen, Kohske Takahashi, Claus Wilke, Kara Woo, Hiroaki Yutani, Dewey Dunnington, and Teun van den Brand. 2024. Ggplot2: Create Elegant Data Visualisations Using the Grammar of Graphics. https://ggplot2.tidyverse.org.\n\n\nWickham, Hadley, Romain François, Lionel Henry, Kirill Müller, and Davis Vaughan. 2023. Dplyr: A Grammar of Data Manipulation. https://dplyr.tidyverse.org.",
+    "crumbs": [
+      "Week 13: Longitudinal Models"
+    ]
+  },
+  {
+    "objectID": "week13.html#other-helpful-resources",
+    "href": "week13.html#other-helpful-resources",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "Other Helpful Resources",
+    "text": "Other Helpful Resources\nother stuff here maybe",
+    "crumbs": [
+      "Week 13: Longitudinal Models"
+    ]
+  },
+  {
+    "objectID": "week11.html",
+    "href": "week11.html",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "",
+    "text": "library(palmerpenguins)\nlibrary(dplyr)\nlibrary(ggplot2)\n\n\nggplot(data = penguins,\n       aes(x = bill_length_mm,\n           y = bill_depth_mm,\n           color = species)) +\n  geom_point()",
+    "crumbs": [
+      "Week 11: Logistic Regression"
+    ]
+  },
+  {
+    "objectID": "week11.html#load-some-r-packages",
+    "href": "week11.html#load-some-r-packages",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "",
+    "text": "library(palmerpenguins)\nlibrary(dplyr)\nlibrary(ggplot2)\n\n\nggplot(data = penguins,\n       aes(x = bill_length_mm,\n           y = bill_depth_mm,\n           color = species)) +\n  geom_point()",
+    "crumbs": [
+      "Week 11: Logistic Regression"
+    ]
+  },
+  {
+    "objectID": "week11.html#placeholder-boilerplate.",
+    "href": "week11.html#placeholder-boilerplate.",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "Placeholder boilerplate.",
+    "text": "Placeholder boilerplate.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "Week 11: Logistic Regression"
+    ]
+  },
+  {
+    "objectID": "week11.html#another-section",
+    "href": "week11.html#another-section",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "Another section",
+    "text": "Another section\nsubsection 1\ncars summary stats\n\nsummary(cars)\n\n     speed           dist       \n Min.   : 4.0   Min.   :  2.00  \n 1st Qu.:12.0   1st Qu.: 26.00  \n Median :15.0   Median : 36.00  \n Mean   :15.4   Mean   : 42.98  \n 3rd Qu.:19.0   3rd Qu.: 56.00  \n Max.   :25.0   Max.   :120.00  \n\n\nsubsection 2\nplots\n\nplot(pressure)",
+    "crumbs": [
+      "Week 11: Logistic Regression"
+    ]
+  },
+  {
+    "objectID": "week11.html#r-code-for-this-module",
+    "href": "week11.html#r-code-for-this-module",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "R Code For This Module",
+    "text": "R Code For This Module\nadd later maybe",
+    "crumbs": [
+      "Week 11: Logistic Regression"
+    ]
+  },
+  {
+    "objectID": "week11.html#references",
+    "href": "week11.html#references",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "References",
+    "text": "References\n\n\nHorst, Allison, Alison Hill, and Kristen Gorman. 2022. Palmerpenguins: Palmer Archipelago (Antarctica) Penguin Data. https://allisonhorst.github.io/palmerpenguins/.\n\n\nR Core Team. 2025. R: A Language and Environment for Statistical Computing. Vienna, Austria: R Foundation for Statistical Computing. https://www.R-project.org/.\n\n\nWickham, Hadley. 2016. Ggplot2: Elegant Graphics for Data Analysis. Springer-Verlag New York. https://ggplot2.tidyverse.org.\n\n\nWickham, Hadley, Winston Chang, Lionel Henry, Thomas Lin Pedersen, Kohske Takahashi, Claus Wilke, Kara Woo, Hiroaki Yutani, Dewey Dunnington, and Teun van den Brand. 2024. Ggplot2: Create Elegant Data Visualisations Using the Grammar of Graphics. https://ggplot2.tidyverse.org.\n\n\nWickham, Hadley, Romain François, Lionel Henry, Kirill Müller, and Davis Vaughan. 2023. Dplyr: A Grammar of Data Manipulation. https://dplyr.tidyverse.org.",
+    "crumbs": [
+      "Week 11: Logistic Regression"
+    ]
+  },
+  {
+    "objectID": "week11.html#other-helpful-resources",
+    "href": "week11.html#other-helpful-resources",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "Other Helpful Resources",
+    "text": "Other Helpful Resources\nother stuff here maybe",
+    "crumbs": [
+      "Week 11: Logistic Regression"
+    ]
+  },
+  {
+    "objectID": "week09.html",
+    "href": "week09.html",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "",
+    "text": "library(palmerpenguins)\nlibrary(dplyr)\nlibrary(ggplot2)\n\n\nggplot(data = penguins,\n       aes(x = bill_length_mm,\n           y = bill_depth_mm,\n           color = species)) +\n  geom_point()",
+    "crumbs": [
+      "Week 9: Model Building"
+    ]
+  },
+  {
+    "objectID": "week09.html#load-some-r-packages",
+    "href": "week09.html#load-some-r-packages",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "",
+    "text": "library(palmerpenguins)\nlibrary(dplyr)\nlibrary(ggplot2)\n\n\nggplot(data = penguins,\n       aes(x = bill_length_mm,\n           y = bill_depth_mm,\n           color = species)) +\n  geom_point()",
+    "crumbs": [
+      "Week 9: Model Building"
+    ]
+  },
+  {
+    "objectID": "week09.html#placeholder-boilerplate.",
+    "href": "week09.html#placeholder-boilerplate.",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "Placeholder boilerplate.",
+    "text": "Placeholder boilerplate.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "Week 9: Model Building"
+    ]
+  },
+  {
+    "objectID": "week09.html#another-section",
+    "href": "week09.html#another-section",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "Another section",
+    "text": "Another section\nsubsection 1\ncars summary stats\n\nsummary(cars)\n\n     speed           dist       \n Min.   : 4.0   Min.   :  2.00  \n 1st Qu.:12.0   1st Qu.: 26.00  \n Median :15.0   Median : 36.00  \n Mean   :15.4   Mean   : 42.98  \n 3rd Qu.:19.0   3rd Qu.: 56.00  \n Max.   :25.0   Max.   :120.00  \n\n\nsubsection 2\nplots\n\nplot(pressure)",
+    "crumbs": [
+      "Week 9: Model Building"
+    ]
+  },
+  {
+    "objectID": "week09.html#r-code-for-this-module",
+    "href": "week09.html#r-code-for-this-module",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "R Code For This Module",
+    "text": "R Code For This Module\nadd later maybe",
+    "crumbs": [
+      "Week 9: Model Building"
+    ]
+  },
+  {
+    "objectID": "week09.html#references",
+    "href": "week09.html#references",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "References",
+    "text": "References\n\n\nHorst, Allison, Alison Hill, and Kristen Gorman. 2022. Palmerpenguins: Palmer Archipelago (Antarctica) Penguin Data. https://allisonhorst.github.io/palmerpenguins/.\n\n\nR Core Team. 2025. R: A Language and Environment for Statistical Computing. Vienna, Austria: R Foundation for Statistical Computing. https://www.R-project.org/.\n\n\nWickham, Hadley. 2016. Ggplot2: Elegant Graphics for Data Analysis. Springer-Verlag New York. https://ggplot2.tidyverse.org.\n\n\nWickham, Hadley, Winston Chang, Lionel Henry, Thomas Lin Pedersen, Kohske Takahashi, Claus Wilke, Kara Woo, Hiroaki Yutani, Dewey Dunnington, and Teun van den Brand. 2024. Ggplot2: Create Elegant Data Visualisations Using the Grammar of Graphics. https://ggplot2.tidyverse.org.\n\n\nWickham, Hadley, Romain François, Lionel Henry, Kirill Müller, and Davis Vaughan. 2023. Dplyr: A Grammar of Data Manipulation. https://dplyr.tidyverse.org.",
+    "crumbs": [
+      "Week 9: Model Building"
+    ]
+  },
+  {
+    "objectID": "week09.html#other-helpful-resources",
+    "href": "week09.html#other-helpful-resources",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "Other Helpful Resources",
+    "text": "Other Helpful Resources\nother stuff here maybe",
+    "crumbs": [
+      "Week 9: Model Building"
+    ]
+  },
+  {
+    "objectID": "week07.html",
+    "href": "week07.html",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "",
+    "text": "library(palmerpenguins)\nlibrary(dplyr)\nlibrary(ggplot2)\n\n\nggplot(data = penguins,\n       aes(x = bill_length_mm,\n           y = bill_depth_mm,\n           color = species)) +\n  geom_point()",
+    "crumbs": [
+      "Week 7: Regression & ANOVA"
+    ]
+  },
+  {
+    "objectID": "week07.html#load-some-r-packages",
+    "href": "week07.html#load-some-r-packages",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "",
+    "text": "library(palmerpenguins)\nlibrary(dplyr)\nlibrary(ggplot2)\n\n\nggplot(data = penguins,\n       aes(x = bill_length_mm,\n           y = bill_depth_mm,\n           color = species)) +\n  geom_point()",
+    "crumbs": [
+      "Week 7: Regression & ANOVA"
+    ]
+  },
+  {
+    "objectID": "week07.html#placeholder-boilerplate.",
+    "href": "week07.html#placeholder-boilerplate.",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "Placeholder boilerplate.",
+    "text": "Placeholder boilerplate.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "Week 7: Regression & ANOVA"
+    ]
+  },
+  {
+    "objectID": "week07.html#another-section",
+    "href": "week07.html#another-section",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "Another section",
+    "text": "Another section\nsubsection 1\ncars summary stats\n\nsummary(cars)\n\n     speed           dist       \n Min.   : 4.0   Min.   :  2.00  \n 1st Qu.:12.0   1st Qu.: 26.00  \n Median :15.0   Median : 36.00  \n Mean   :15.4   Mean   : 42.98  \n 3rd Qu.:19.0   3rd Qu.: 56.00  \n Max.   :25.0   Max.   :120.00  \n\n\nsubsection 2\nplots\n\nplot(pressure)",
+    "crumbs": [
+      "Week 7: Regression & ANOVA"
+    ]
+  },
+  {
+    "objectID": "week07.html#r-code-for-this-module",
+    "href": "week07.html#r-code-for-this-module",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "R Code For This Module",
+    "text": "R Code For This Module\nadd later maybe",
+    "crumbs": [
+      "Week 7: Regression & ANOVA"
+    ]
+  },
+  {
+    "objectID": "week07.html#references",
+    "href": "week07.html#references",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "References",
+    "text": "References\n\n\nHorst, Allison, Alison Hill, and Kristen Gorman. 2022. Palmerpenguins: Palmer Archipelago (Antarctica) Penguin Data. https://allisonhorst.github.io/palmerpenguins/.\n\n\nR Core Team. 2025. R: A Language and Environment for Statistical Computing. Vienna, Austria: R Foundation for Statistical Computing. https://www.R-project.org/.\n\n\nWickham, Hadley. 2016. Ggplot2: Elegant Graphics for Data Analysis. Springer-Verlag New York. https://ggplot2.tidyverse.org.\n\n\nWickham, Hadley, Winston Chang, Lionel Henry, Thomas Lin Pedersen, Kohske Takahashi, Claus Wilke, Kara Woo, Hiroaki Yutani, Dewey Dunnington, and Teun van den Brand. 2024. Ggplot2: Create Elegant Data Visualisations Using the Grammar of Graphics. https://ggplot2.tidyverse.org.\n\n\nWickham, Hadley, Romain François, Lionel Henry, Kirill Müller, and Davis Vaughan. 2023. Dplyr: A Grammar of Data Manipulation. https://dplyr.tidyverse.org.",
+    "crumbs": [
+      "Week 7: Regression & ANOVA"
+    ]
+  },
+  {
+    "objectID": "week07.html#other-helpful-resources",
+    "href": "week07.html#other-helpful-resources",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "Other Helpful Resources",
+    "text": "Other Helpful Resources\nother stuff here maybe",
+    "crumbs": [
+      "Week 7: Regression & ANOVA"
+    ]
+  },
+  {
+    "objectID": "week05.html",
+    "href": "week05.html",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "",
+    "text": "library(palmerpenguins)\nlibrary(dplyr)\nlibrary(ggplot2)\n\n\nggplot(data = penguins,\n       aes(x = bill_length_mm,\n           y = bill_depth_mm,\n           color = species)) +\n  geom_point()",
+    "crumbs": [
+      "Week 5: Effect Sizes"
+    ]
+  },
+  {
+    "objectID": "week05.html#load-some-r-packages",
+    "href": "week05.html#load-some-r-packages",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "",
+    "text": "library(palmerpenguins)\nlibrary(dplyr)\nlibrary(ggplot2)\n\n\nggplot(data = penguins,\n       aes(x = bill_length_mm,\n           y = bill_depth_mm,\n           color = species)) +\n  geom_point()",
+    "crumbs": [
+      "Week 5: Effect Sizes"
+    ]
+  },
+  {
+    "objectID": "week05.html#placeholder-boilerplate.",
+    "href": "week05.html#placeholder-boilerplate.",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "Placeholder boilerplate.",
+    "text": "Placeholder boilerplate.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "Week 5: Effect Sizes"
+    ]
+  },
+  {
+    "objectID": "week05.html#another-section",
+    "href": "week05.html#another-section",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "Another section",
+    "text": "Another section\nsubsection 1\ncars summary stats\n\nsummary(cars)\n\n     speed           dist       \n Min.   : 4.0   Min.   :  2.00  \n 1st Qu.:12.0   1st Qu.: 26.00  \n Median :15.0   Median : 36.00  \n Mean   :15.4   Mean   : 42.98  \n 3rd Qu.:19.0   3rd Qu.: 56.00  \n Max.   :25.0   Max.   :120.00  \n\n\nsubsection 2\nplots\n\nplot(pressure)",
+    "crumbs": [
+      "Week 5: Effect Sizes"
+    ]
+  },
+  {
+    "objectID": "week05.html#r-code-for-this-module",
+    "href": "week05.html#r-code-for-this-module",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "R Code For This Module",
+    "text": "R Code For This Module\nadd later maybe",
+    "crumbs": [
+      "Week 5: Effect Sizes"
+    ]
+  },
+  {
+    "objectID": "week05.html#references",
+    "href": "week05.html#references",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "References",
+    "text": "References\n\n\nHorst, Allison, Alison Hill, and Kristen Gorman. 2022. Palmerpenguins: Palmer Archipelago (Antarctica) Penguin Data. https://allisonhorst.github.io/palmerpenguins/.\n\n\nR Core Team. 2025. R: A Language and Environment for Statistical Computing. Vienna, Austria: R Foundation for Statistical Computing. https://www.R-project.org/.\n\n\nWickham, Hadley. 2016. Ggplot2: Elegant Graphics for Data Analysis. Springer-Verlag New York. https://ggplot2.tidyverse.org.\n\n\nWickham, Hadley, Winston Chang, Lionel Henry, Thomas Lin Pedersen, Kohske Takahashi, Claus Wilke, Kara Woo, Hiroaki Yutani, Dewey Dunnington, and Teun van den Brand. 2024. Ggplot2: Create Elegant Data Visualisations Using the Grammar of Graphics. https://ggplot2.tidyverse.org.\n\n\nWickham, Hadley, Romain François, Lionel Henry, Kirill Müller, and Davis Vaughan. 2023. Dplyr: A Grammar of Data Manipulation. https://dplyr.tidyverse.org.",
+    "crumbs": [
+      "Week 5: Effect Sizes"
+    ]
+  },
+  {
+    "objectID": "week05.html#other-helpful-resources",
+    "href": "week05.html#other-helpful-resources",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "Other Helpful Resources",
+    "text": "Other Helpful Resources\nother stuff here maybe",
+    "crumbs": [
+      "Week 5: Effect Sizes"
+    ]
+  },
+  {
+    "objectID": "week03.html",
+    "href": "week03.html",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "",
+    "text": "library(palmerpenguins)\nlibrary(dplyr)\nlibrary(ggplot2)\n\n\nggplot(data = penguins,\n       aes(x = bill_length_mm,\n           y = bill_depth_mm,\n           color = species)) +\n  geom_point()",
+    "crumbs": [
+      "Week 3: Correlation"
+    ]
+  },
+  {
+    "objectID": "week03.html#load-some-r-packages",
+    "href": "week03.html#load-some-r-packages",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "",
+    "text": "library(palmerpenguins)\nlibrary(dplyr)\nlibrary(ggplot2)\n\n\nggplot(data = penguins,\n       aes(x = bill_length_mm,\n           y = bill_depth_mm,\n           color = species)) +\n  geom_point()",
+    "crumbs": [
+      "Week 3: Correlation"
+    ]
+  },
+  {
+    "objectID": "week03.html#placeholder-boilerplate.",
+    "href": "week03.html#placeholder-boilerplate.",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "Placeholder boilerplate.",
+    "text": "Placeholder boilerplate.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "Week 3: Correlation"
+    ]
+  },
+  {
+    "objectID": "week03.html#another-section",
+    "href": "week03.html#another-section",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "Another section",
+    "text": "Another section\nsubsection 1\ncars summary stats\n\nsummary(cars)\n\n     speed           dist       \n Min.   : 4.0   Min.   :  2.00  \n 1st Qu.:12.0   1st Qu.: 26.00  \n Median :15.0   Median : 36.00  \n Mean   :15.4   Mean   : 42.98  \n 3rd Qu.:19.0   3rd Qu.: 56.00  \n Max.   :25.0   Max.   :120.00  \n\n\nsubsection 2\nplots\n\nplot(pressure)",
+    "crumbs": [
+      "Week 3: Correlation"
+    ]
+  },
+  {
+    "objectID": "week03.html#r-code-for-this-module",
+    "href": "week03.html#r-code-for-this-module",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "R Code For This Module",
+    "text": "R Code For This Module\nadd later maybe",
+    "crumbs": [
+      "Week 3: Correlation"
+    ]
+  },
+  {
+    "objectID": "week03.html#references",
+    "href": "week03.html#references",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "References",
+    "text": "References\n\n\nHorst, Allison, Alison Hill, and Kristen Gorman. 2022. Palmerpenguins: Palmer Archipelago (Antarctica) Penguin Data. https://allisonhorst.github.io/palmerpenguins/.\n\n\nR Core Team. 2025. R: A Language and Environment for Statistical Computing. Vienna, Austria: R Foundation for Statistical Computing. https://www.R-project.org/.\n\n\nWickham, Hadley. 2016. Ggplot2: Elegant Graphics for Data Analysis. Springer-Verlag New York. https://ggplot2.tidyverse.org.\n\n\nWickham, Hadley, Winston Chang, Lionel Henry, Thomas Lin Pedersen, Kohske Takahashi, Claus Wilke, Kara Woo, Hiroaki Yutani, Dewey Dunnington, and Teun van den Brand. 2024. Ggplot2: Create Elegant Data Visualisations Using the Grammar of Graphics. https://ggplot2.tidyverse.org.\n\n\nWickham, Hadley, Romain François, Lionel Henry, Kirill Müller, and Davis Vaughan. 2023. Dplyr: A Grammar of Data Manipulation. https://dplyr.tidyverse.org.",
+    "crumbs": [
+      "Week 3: Correlation"
+    ]
+  },
+  {
+    "objectID": "week03.html#other-helpful-resources",
+    "href": "week03.html#other-helpful-resources",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "Other Helpful Resources",
+    "text": "Other Helpful Resources\nother stuff here maybe",
+    "crumbs": [
+      "Week 3: Correlation"
+    ]
+  },
+  {
+    "objectID": "week01.html",
+    "href": "week01.html",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "",
+    "text": "library(palmerpenguins)\nlibrary(dplyr)\nlibrary(ggplot2)\n\n\nggplot(data = penguins,\n       aes(x = bill_length_mm,\n           y = bill_depth_mm,\n           color = species)) +\n  geom_point()",
+    "crumbs": [
+      "Week 1: Welcome and Introduction"
+    ]
+  },
+  {
+    "objectID": "week01.html#load-some-r-packages",
+    "href": "week01.html#load-some-r-packages",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "",
+    "text": "library(palmerpenguins)\nlibrary(dplyr)\nlibrary(ggplot2)\n\n\nggplot(data = penguins,\n       aes(x = bill_length_mm,\n           y = bill_depth_mm,\n           color = species)) +\n  geom_point()",
+    "crumbs": [
+      "Week 1: Welcome and Introduction"
+    ]
+  },
+  {
+    "objectID": "week01.html#placeholder-boilerplate.",
+    "href": "week01.html#placeholder-boilerplate.",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "Placeholder boilerplate.",
+    "text": "Placeholder boilerplate.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "Week 1: Welcome and Introduction"
+    ]
+  },
+  {
+    "objectID": "week01.html#another-section",
+    "href": "week01.html#another-section",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "Another section",
+    "text": "Another section\nsubsection 1\ncars summary stats\n\nsummary(cars)\n\n     speed           dist       \n Min.   : 4.0   Min.   :  2.00  \n 1st Qu.:12.0   1st Qu.: 26.00  \n Median :15.0   Median : 36.00  \n Mean   :15.4   Mean   : 42.98  \n 3rd Qu.:19.0   3rd Qu.: 56.00  \n Max.   :25.0   Max.   :120.00  \n\n\nsubsection 2\nplots\n\nplot(pressure)",
+    "crumbs": [
+      "Week 1: Welcome and Introduction"
+    ]
+  },
+  {
+    "objectID": "week01.html#r-code-for-this-module",
+    "href": "week01.html#r-code-for-this-module",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "R Code For This Module",
+    "text": "R Code For This Module\nadd later maybe",
+    "crumbs": [
+      "Week 1: Welcome and Introduction"
+    ]
+  },
+  {
+    "objectID": "week01.html#references",
+    "href": "week01.html#references",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "References",
+    "text": "References\n\n\nHorst, Allison, Alison Hill, and Kristen Gorman. 2022. Palmerpenguins: Palmer Archipelago (Antarctica) Penguin Data. https://allisonhorst.github.io/palmerpenguins/.\n\n\nR Core Team. 2025. R: A Language and Environment for Statistical Computing. Vienna, Austria: R Foundation for Statistical Computing. https://www.R-project.org/.\n\n\nWickham, Hadley. 2016. Ggplot2: Elegant Graphics for Data Analysis. Springer-Verlag New York. https://ggplot2.tidyverse.org.\n\n\nWickham, Hadley, Winston Chang, Lionel Henry, Thomas Lin Pedersen, Kohske Takahashi, Claus Wilke, Kara Woo, Hiroaki Yutani, Dewey Dunnington, and Teun van den Brand. 2024. Ggplot2: Create Elegant Data Visualisations Using the Grammar of Graphics. https://ggplot2.tidyverse.org.\n\n\nWickham, Hadley, Romain François, Lionel Henry, Kirill Müller, and Davis Vaughan. 2023. Dplyr: A Grammar of Data Manipulation. https://dplyr.tidyverse.org.",
+    "crumbs": [
+      "Week 1: Welcome and Introduction"
+    ]
+  },
+  {
+    "objectID": "week01.html#other-helpful-resources",
+    "href": "week01.html#other-helpful-resources",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "Other Helpful Resources",
+    "text": "Other Helpful Resources\nother stuff here maybe",
+    "crumbs": [
+      "Week 1: Welcome and Introduction"
+    ]
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
@@ -30,13 +590,493 @@
     ]
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "week02.html",
+    "href": "week02.html",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2",
+    "text": "library(palmerpenguins)\nlibrary(dplyr)\nlibrary(ggplot2)\n\n\nggplot(data = penguins,\n       aes(x = bill_length_mm,\n           y = bill_depth_mm,\n           color = species)) +\n  geom_point()",
     "crumbs": [
-      "About"
+      "Week 2: Getting Started Table 1"
+    ]
+  },
+  {
+    "objectID": "week02.html#load-some-r-packages",
+    "href": "week02.html#load-some-r-packages",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "",
+    "text": "library(palmerpenguins)\nlibrary(dplyr)\nlibrary(ggplot2)\n\n\nggplot(data = penguins,\n       aes(x = bill_length_mm,\n           y = bill_depth_mm,\n           color = species)) +\n  geom_point()",
+    "crumbs": [
+      "Week 2: Getting Started Table 1"
+    ]
+  },
+  {
+    "objectID": "week02.html#placeholder-boilerplate.",
+    "href": "week02.html#placeholder-boilerplate.",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "Placeholder boilerplate.",
+    "text": "Placeholder boilerplate.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "Week 2: Getting Started Table 1"
+    ]
+  },
+  {
+    "objectID": "week02.html#another-section",
+    "href": "week02.html#another-section",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "Another section",
+    "text": "Another section\nsubsection 1\ncars summary stats\n\nsummary(cars)\n\n     speed           dist       \n Min.   : 4.0   Min.   :  2.00  \n 1st Qu.:12.0   1st Qu.: 26.00  \n Median :15.0   Median : 36.00  \n Mean   :15.4   Mean   : 42.98  \n 3rd Qu.:19.0   3rd Qu.: 56.00  \n Max.   :25.0   Max.   :120.00  \n\n\nsubsection 2\nplots\n\nplot(pressure)",
+    "crumbs": [
+      "Week 2: Getting Started Table 1"
+    ]
+  },
+  {
+    "objectID": "week02.html#r-code-for-this-module",
+    "href": "week02.html#r-code-for-this-module",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "R Code For This Module",
+    "text": "R Code For This Module\nadd later maybe",
+    "crumbs": [
+      "Week 2: Getting Started Table 1"
+    ]
+  },
+  {
+    "objectID": "week02.html#references",
+    "href": "week02.html#references",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "References",
+    "text": "References\n\n\nHorst, Allison, Alison Hill, and Kristen Gorman. 2022. Palmerpenguins: Palmer Archipelago (Antarctica) Penguin Data. https://allisonhorst.github.io/palmerpenguins/.\n\n\nR Core Team. 2025. R: A Language and Environment for Statistical Computing. Vienna, Austria: R Foundation for Statistical Computing. https://www.R-project.org/.\n\n\nWickham, Hadley. 2016. Ggplot2: Elegant Graphics for Data Analysis. Springer-Verlag New York. https://ggplot2.tidyverse.org.\n\n\nWickham, Hadley, Winston Chang, Lionel Henry, Thomas Lin Pedersen, Kohske Takahashi, Claus Wilke, Kara Woo, Hiroaki Yutani, Dewey Dunnington, and Teun van den Brand. 2024. Ggplot2: Create Elegant Data Visualisations Using the Grammar of Graphics. https://ggplot2.tidyverse.org.\n\n\nWickham, Hadley, Romain François, Lionel Henry, Kirill Müller, and Davis Vaughan. 2023. Dplyr: A Grammar of Data Manipulation. https://dplyr.tidyverse.org.",
+    "crumbs": [
+      "Week 2: Getting Started Table 1"
+    ]
+  },
+  {
+    "objectID": "week02.html#other-helpful-resources",
+    "href": "week02.html#other-helpful-resources",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "Other Helpful Resources",
+    "text": "Other Helpful Resources\nother stuff here maybe",
+    "crumbs": [
+      "Week 2: Getting Started Table 1"
+    ]
+  },
+  {
+    "objectID": "week04.html",
+    "href": "week04.html",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "",
+    "text": "library(palmerpenguins)\nlibrary(dplyr)\nlibrary(ggplot2)\n\n\nggplot(data = penguins,\n       aes(x = bill_length_mm,\n           y = bill_depth_mm,\n           color = species)) +\n  geom_point()",
+    "crumbs": [
+      "Week 4: Bivariate Stats"
+    ]
+  },
+  {
+    "objectID": "week04.html#load-some-r-packages",
+    "href": "week04.html#load-some-r-packages",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "",
+    "text": "library(palmerpenguins)\nlibrary(dplyr)\nlibrary(ggplot2)\n\n\nggplot(data = penguins,\n       aes(x = bill_length_mm,\n           y = bill_depth_mm,\n           color = species)) +\n  geom_point()",
+    "crumbs": [
+      "Week 4: Bivariate Stats"
+    ]
+  },
+  {
+    "objectID": "week04.html#placeholder-boilerplate.",
+    "href": "week04.html#placeholder-boilerplate.",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "Placeholder boilerplate.",
+    "text": "Placeholder boilerplate.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "Week 4: Bivariate Stats"
+    ]
+  },
+  {
+    "objectID": "week04.html#another-section",
+    "href": "week04.html#another-section",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "Another section",
+    "text": "Another section\nsubsection 1\ncars summary stats\n\nsummary(cars)\n\n     speed           dist       \n Min.   : 4.0   Min.   :  2.00  \n 1st Qu.:12.0   1st Qu.: 26.00  \n Median :15.0   Median : 36.00  \n Mean   :15.4   Mean   : 42.98  \n 3rd Qu.:19.0   3rd Qu.: 56.00  \n Max.   :25.0   Max.   :120.00  \n\n\nsubsection 2\nplots\n\nplot(pressure)",
+    "crumbs": [
+      "Week 4: Bivariate Stats"
+    ]
+  },
+  {
+    "objectID": "week04.html#r-code-for-this-module",
+    "href": "week04.html#r-code-for-this-module",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "R Code For This Module",
+    "text": "R Code For This Module\nadd later maybe",
+    "crumbs": [
+      "Week 4: Bivariate Stats"
+    ]
+  },
+  {
+    "objectID": "week04.html#references",
+    "href": "week04.html#references",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "References",
+    "text": "References\n\n\nHorst, Allison, Alison Hill, and Kristen Gorman. 2022. Palmerpenguins: Palmer Archipelago (Antarctica) Penguin Data. https://allisonhorst.github.io/palmerpenguins/.\n\n\nR Core Team. 2025. R: A Language and Environment for Statistical Computing. Vienna, Austria: R Foundation for Statistical Computing. https://www.R-project.org/.\n\n\nWickham, Hadley. 2016. Ggplot2: Elegant Graphics for Data Analysis. Springer-Verlag New York. https://ggplot2.tidyverse.org.\n\n\nWickham, Hadley, Winston Chang, Lionel Henry, Thomas Lin Pedersen, Kohske Takahashi, Claus Wilke, Kara Woo, Hiroaki Yutani, Dewey Dunnington, and Teun van den Brand. 2024. Ggplot2: Create Elegant Data Visualisations Using the Grammar of Graphics. https://ggplot2.tidyverse.org.\n\n\nWickham, Hadley, Romain François, Lionel Henry, Kirill Müller, and Davis Vaughan. 2023. Dplyr: A Grammar of Data Manipulation. https://dplyr.tidyverse.org.",
+    "crumbs": [
+      "Week 4: Bivariate Stats"
+    ]
+  },
+  {
+    "objectID": "week04.html#other-helpful-resources",
+    "href": "week04.html#other-helpful-resources",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "Other Helpful Resources",
+    "text": "Other Helpful Resources\nother stuff here maybe",
+    "crumbs": [
+      "Week 4: Bivariate Stats"
+    ]
+  },
+  {
+    "objectID": "week06.html",
+    "href": "week06.html",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "",
+    "text": "library(palmerpenguins)\nlibrary(dplyr)\nlibrary(ggplot2)\n\n\nggplot(data = penguins,\n       aes(x = bill_length_mm,\n           y = bill_depth_mm,\n           color = species)) +\n  geom_point()",
+    "crumbs": [
+      "Week 6: Regression & Diagnostics"
+    ]
+  },
+  {
+    "objectID": "week06.html#load-some-r-packages",
+    "href": "week06.html#load-some-r-packages",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "",
+    "text": "library(palmerpenguins)\nlibrary(dplyr)\nlibrary(ggplot2)\n\n\nggplot(data = penguins,\n       aes(x = bill_length_mm,\n           y = bill_depth_mm,\n           color = species)) +\n  geom_point()",
+    "crumbs": [
+      "Week 6: Regression & Diagnostics"
+    ]
+  },
+  {
+    "objectID": "week06.html#placeholder-boilerplate.",
+    "href": "week06.html#placeholder-boilerplate.",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "Placeholder boilerplate.",
+    "text": "Placeholder boilerplate.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "Week 6: Regression & Diagnostics"
+    ]
+  },
+  {
+    "objectID": "week06.html#another-section",
+    "href": "week06.html#another-section",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "Another section",
+    "text": "Another section\nsubsection 1\ncars summary stats\n\nsummary(cars)\n\n     speed           dist       \n Min.   : 4.0   Min.   :  2.00  \n 1st Qu.:12.0   1st Qu.: 26.00  \n Median :15.0   Median : 36.00  \n Mean   :15.4   Mean   : 42.98  \n 3rd Qu.:19.0   3rd Qu.: 56.00  \n Max.   :25.0   Max.   :120.00  \n\n\nsubsection 2\nplots\n\nplot(pressure)",
+    "crumbs": [
+      "Week 6: Regression & Diagnostics"
+    ]
+  },
+  {
+    "objectID": "week06.html#r-code-for-this-module",
+    "href": "week06.html#r-code-for-this-module",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "R Code For This Module",
+    "text": "R Code For This Module\nadd later maybe",
+    "crumbs": [
+      "Week 6: Regression & Diagnostics"
+    ]
+  },
+  {
+    "objectID": "week06.html#references",
+    "href": "week06.html#references",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "References",
+    "text": "References\n\n\nHorst, Allison, Alison Hill, and Kristen Gorman. 2022. Palmerpenguins: Palmer Archipelago (Antarctica) Penguin Data. https://allisonhorst.github.io/palmerpenguins/.\n\n\nR Core Team. 2025. R: A Language and Environment for Statistical Computing. Vienna, Austria: R Foundation for Statistical Computing. https://www.R-project.org/.\n\n\nWickham, Hadley. 2016. Ggplot2: Elegant Graphics for Data Analysis. Springer-Verlag New York. https://ggplot2.tidyverse.org.\n\n\nWickham, Hadley, Winston Chang, Lionel Henry, Thomas Lin Pedersen, Kohske Takahashi, Claus Wilke, Kara Woo, Hiroaki Yutani, Dewey Dunnington, and Teun van den Brand. 2024. Ggplot2: Create Elegant Data Visualisations Using the Grammar of Graphics. https://ggplot2.tidyverse.org.\n\n\nWickham, Hadley, Romain François, Lionel Henry, Kirill Müller, and Davis Vaughan. 2023. Dplyr: A Grammar of Data Manipulation. https://dplyr.tidyverse.org.",
+    "crumbs": [
+      "Week 6: Regression & Diagnostics"
+    ]
+  },
+  {
+    "objectID": "week06.html#other-helpful-resources",
+    "href": "week06.html#other-helpful-resources",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "Other Helpful Resources",
+    "text": "Other Helpful Resources\nother stuff here maybe",
+    "crumbs": [
+      "Week 6: Regression & Diagnostics"
+    ]
+  },
+  {
+    "objectID": "week08.html",
+    "href": "week08.html",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "",
+    "text": "library(palmerpenguins)\nlibrary(dplyr)\nlibrary(ggplot2)\n\n\nggplot(data = penguins,\n       aes(x = bill_length_mm,\n           y = bill_depth_mm,\n           color = species)) +\n  geom_point()",
+    "crumbs": [
+      "Week 8: Multivariate Linear Regression"
+    ]
+  },
+  {
+    "objectID": "week08.html#load-some-r-packages",
+    "href": "week08.html#load-some-r-packages",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "",
+    "text": "library(palmerpenguins)\nlibrary(dplyr)\nlibrary(ggplot2)\n\n\nggplot(data = penguins,\n       aes(x = bill_length_mm,\n           y = bill_depth_mm,\n           color = species)) +\n  geom_point()",
+    "crumbs": [
+      "Week 8: Multivariate Linear Regression"
+    ]
+  },
+  {
+    "objectID": "week08.html#placeholder-boilerplate.",
+    "href": "week08.html#placeholder-boilerplate.",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "Placeholder boilerplate.",
+    "text": "Placeholder boilerplate.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "Week 8: Multivariate Linear Regression"
+    ]
+  },
+  {
+    "objectID": "week08.html#another-section",
+    "href": "week08.html#another-section",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "Another section",
+    "text": "Another section\nsubsection 1\ncars summary stats\n\nsummary(cars)\n\n     speed           dist       \n Min.   : 4.0   Min.   :  2.00  \n 1st Qu.:12.0   1st Qu.: 26.00  \n Median :15.0   Median : 36.00  \n Mean   :15.4   Mean   : 42.98  \n 3rd Qu.:19.0   3rd Qu.: 56.00  \n Max.   :25.0   Max.   :120.00  \n\n\nsubsection 2\nplots\n\nplot(pressure)",
+    "crumbs": [
+      "Week 8: Multivariate Linear Regression"
+    ]
+  },
+  {
+    "objectID": "week08.html#r-code-for-this-module",
+    "href": "week08.html#r-code-for-this-module",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "R Code For This Module",
+    "text": "R Code For This Module\nadd later maybe",
+    "crumbs": [
+      "Week 8: Multivariate Linear Regression"
+    ]
+  },
+  {
+    "objectID": "week08.html#references",
+    "href": "week08.html#references",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "References",
+    "text": "References\n\n\nHorst, Allison, Alison Hill, and Kristen Gorman. 2022. Palmerpenguins: Palmer Archipelago (Antarctica) Penguin Data. https://allisonhorst.github.io/palmerpenguins/.\n\n\nR Core Team. 2025. R: A Language and Environment for Statistical Computing. Vienna, Austria: R Foundation for Statistical Computing. https://www.R-project.org/.\n\n\nWickham, Hadley. 2016. Ggplot2: Elegant Graphics for Data Analysis. Springer-Verlag New York. https://ggplot2.tidyverse.org.\n\n\nWickham, Hadley, Winston Chang, Lionel Henry, Thomas Lin Pedersen, Kohske Takahashi, Claus Wilke, Kara Woo, Hiroaki Yutani, Dewey Dunnington, and Teun van den Brand. 2024. Ggplot2: Create Elegant Data Visualisations Using the Grammar of Graphics. https://ggplot2.tidyverse.org.\n\n\nWickham, Hadley, Romain François, Lionel Henry, Kirill Müller, and Davis Vaughan. 2023. Dplyr: A Grammar of Data Manipulation. https://dplyr.tidyverse.org.",
+    "crumbs": [
+      "Week 8: Multivariate Linear Regression"
+    ]
+  },
+  {
+    "objectID": "week08.html#other-helpful-resources",
+    "href": "week08.html#other-helpful-resources",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "Other Helpful Resources",
+    "text": "Other Helpful Resources\nother stuff here maybe",
+    "crumbs": [
+      "Week 8: Multivariate Linear Regression"
+    ]
+  },
+  {
+    "objectID": "week10.html",
+    "href": "week10.html",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "",
+    "text": "library(palmerpenguins)\nlibrary(dplyr)\nlibrary(ggplot2)\n\n\nggplot(data = penguins,\n       aes(x = bill_length_mm,\n           y = bill_depth_mm,\n           color = species)) +\n  geom_point()",
+    "crumbs": [
+      "Week 10: Moderation"
+    ]
+  },
+  {
+    "objectID": "week10.html#load-some-r-packages",
+    "href": "week10.html#load-some-r-packages",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "",
+    "text": "library(palmerpenguins)\nlibrary(dplyr)\nlibrary(ggplot2)\n\n\nggplot(data = penguins,\n       aes(x = bill_length_mm,\n           y = bill_depth_mm,\n           color = species)) +\n  geom_point()",
+    "crumbs": [
+      "Week 10: Moderation"
+    ]
+  },
+  {
+    "objectID": "week10.html#placeholder-boilerplate.",
+    "href": "week10.html#placeholder-boilerplate.",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "Placeholder boilerplate.",
+    "text": "Placeholder boilerplate.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "Week 10: Moderation"
+    ]
+  },
+  {
+    "objectID": "week10.html#another-section",
+    "href": "week10.html#another-section",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "Another section",
+    "text": "Another section\nsubsection 1\ncars summary stats\n\nsummary(cars)\n\n     speed           dist       \n Min.   : 4.0   Min.   :  2.00  \n 1st Qu.:12.0   1st Qu.: 26.00  \n Median :15.0   Median : 36.00  \n Mean   :15.4   Mean   : 42.98  \n 3rd Qu.:19.0   3rd Qu.: 56.00  \n Max.   :25.0   Max.   :120.00  \n\n\nsubsection 2\nplots\n\nplot(pressure)",
+    "crumbs": [
+      "Week 10: Moderation"
+    ]
+  },
+  {
+    "objectID": "week10.html#r-code-for-this-module",
+    "href": "week10.html#r-code-for-this-module",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "R Code For This Module",
+    "text": "R Code For This Module\nadd later maybe",
+    "crumbs": [
+      "Week 10: Moderation"
+    ]
+  },
+  {
+    "objectID": "week10.html#references",
+    "href": "week10.html#references",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "References",
+    "text": "References\n\n\nHorst, Allison, Alison Hill, and Kristen Gorman. 2022. Palmerpenguins: Palmer Archipelago (Antarctica) Penguin Data. https://allisonhorst.github.io/palmerpenguins/.\n\n\nR Core Team. 2025. R: A Language and Environment for Statistical Computing. Vienna, Austria: R Foundation for Statistical Computing. https://www.R-project.org/.\n\n\nWickham, Hadley. 2016. Ggplot2: Elegant Graphics for Data Analysis. Springer-Verlag New York. https://ggplot2.tidyverse.org.\n\n\nWickham, Hadley, Winston Chang, Lionel Henry, Thomas Lin Pedersen, Kohske Takahashi, Claus Wilke, Kara Woo, Hiroaki Yutani, Dewey Dunnington, and Teun van den Brand. 2024. Ggplot2: Create Elegant Data Visualisations Using the Grammar of Graphics. https://ggplot2.tidyverse.org.\n\n\nWickham, Hadley, Romain François, Lionel Henry, Kirill Müller, and Davis Vaughan. 2023. Dplyr: A Grammar of Data Manipulation. https://dplyr.tidyverse.org.",
+    "crumbs": [
+      "Week 10: Moderation"
+    ]
+  },
+  {
+    "objectID": "week10.html#other-helpful-resources",
+    "href": "week10.html#other-helpful-resources",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "Other Helpful Resources",
+    "text": "Other Helpful Resources\nother stuff here maybe",
+    "crumbs": [
+      "Week 10: Moderation"
+    ]
+  },
+  {
+    "objectID": "week12.html",
+    "href": "week12.html",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "",
+    "text": "library(palmerpenguins)\nlibrary(dplyr)\nlibrary(ggplot2)\n\n\nggplot(data = penguins,\n       aes(x = bill_length_mm,\n           y = bill_depth_mm,\n           color = species)) +\n  geom_point()",
+    "crumbs": [
+      "Week 12: Dependent Repeated Measures"
+    ]
+  },
+  {
+    "objectID": "week12.html#load-some-r-packages",
+    "href": "week12.html#load-some-r-packages",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "",
+    "text": "library(palmerpenguins)\nlibrary(dplyr)\nlibrary(ggplot2)\n\n\nggplot(data = penguins,\n       aes(x = bill_length_mm,\n           y = bill_depth_mm,\n           color = species)) +\n  geom_point()",
+    "crumbs": [
+      "Week 12: Dependent Repeated Measures"
+    ]
+  },
+  {
+    "objectID": "week12.html#placeholder-boilerplate.",
+    "href": "week12.html#placeholder-boilerplate.",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "Placeholder boilerplate.",
+    "text": "Placeholder boilerplate.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "Week 12: Dependent Repeated Measures"
+    ]
+  },
+  {
+    "objectID": "week12.html#another-section",
+    "href": "week12.html#another-section",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "Another section",
+    "text": "Another section\nsubsection 1\ncars summary stats\n\nsummary(cars)\n\n     speed           dist       \n Min.   : 4.0   Min.   :  2.00  \n 1st Qu.:12.0   1st Qu.: 26.00  \n Median :15.0   Median : 36.00  \n Mean   :15.4   Mean   : 42.98  \n 3rd Qu.:19.0   3rd Qu.: 56.00  \n Max.   :25.0   Max.   :120.00  \n\n\nsubsection 2\nplots\n\nplot(pressure)",
+    "crumbs": [
+      "Week 12: Dependent Repeated Measures"
+    ]
+  },
+  {
+    "objectID": "week12.html#r-code-for-this-module",
+    "href": "week12.html#r-code-for-this-module",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "R Code For This Module",
+    "text": "R Code For This Module\nadd later maybe",
+    "crumbs": [
+      "Week 12: Dependent Repeated Measures"
+    ]
+  },
+  {
+    "objectID": "week12.html#references",
+    "href": "week12.html#references",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "References",
+    "text": "References\n\n\nHorst, Allison, Alison Hill, and Kristen Gorman. 2022. Palmerpenguins: Palmer Archipelago (Antarctica) Penguin Data. https://allisonhorst.github.io/palmerpenguins/.\n\n\nR Core Team. 2025. R: A Language and Environment for Statistical Computing. Vienna, Austria: R Foundation for Statistical Computing. https://www.R-project.org/.\n\n\nWickham, Hadley. 2016. Ggplot2: Elegant Graphics for Data Analysis. Springer-Verlag New York. https://ggplot2.tidyverse.org.\n\n\nWickham, Hadley, Winston Chang, Lionel Henry, Thomas Lin Pedersen, Kohske Takahashi, Claus Wilke, Kara Woo, Hiroaki Yutani, Dewey Dunnington, and Teun van den Brand. 2024. Ggplot2: Create Elegant Data Visualisations Using the Grammar of Graphics. https://ggplot2.tidyverse.org.\n\n\nWickham, Hadley, Romain François, Lionel Henry, Kirill Müller, and Davis Vaughan. 2023. Dplyr: A Grammar of Data Manipulation. https://dplyr.tidyverse.org.",
+    "crumbs": [
+      "Week 12: Dependent Repeated Measures"
+    ]
+  },
+  {
+    "objectID": "week12.html#other-helpful-resources",
+    "href": "week12.html#other-helpful-resources",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "Other Helpful Resources",
+    "text": "Other Helpful Resources\nother stuff here maybe",
+    "crumbs": [
+      "Week 12: Dependent Repeated Measures"
+    ]
+  },
+  {
+    "objectID": "week14.html",
+    "href": "week14.html",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "",
+    "text": "library(palmerpenguins)\nlibrary(dplyr)\nlibrary(ggplot2)\n\n\nggplot(data = penguins,\n       aes(x = bill_length_mm,\n           y = bill_depth_mm,\n           color = species)) +\n  geom_point()",
+    "crumbs": [
+      "Week 14: More Than 1 Outcome"
+    ]
+  },
+  {
+    "objectID": "week14.html#load-some-r-packages",
+    "href": "week14.html#load-some-r-packages",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "",
+    "text": "library(palmerpenguins)\nlibrary(dplyr)\nlibrary(ggplot2)\n\n\nggplot(data = penguins,\n       aes(x = bill_length_mm,\n           y = bill_depth_mm,\n           color = species)) +\n  geom_point()",
+    "crumbs": [
+      "Week 14: More Than 1 Outcome"
+    ]
+  },
+  {
+    "objectID": "week14.html#placeholder-boilerplate.",
+    "href": "week14.html#placeholder-boilerplate.",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "Placeholder boilerplate.",
+    "text": "Placeholder boilerplate.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "Week 14: More Than 1 Outcome"
+    ]
+  },
+  {
+    "objectID": "week14.html#another-section",
+    "href": "week14.html#another-section",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "Another section",
+    "text": "Another section\nsubsection 1\ncars summary stats\n\nsummary(cars)\n\n     speed           dist       \n Min.   : 4.0   Min.   :  2.00  \n 1st Qu.:12.0   1st Qu.: 26.00  \n Median :15.0   Median : 36.00  \n Mean   :15.4   Mean   : 42.98  \n 3rd Qu.:19.0   3rd Qu.: 56.00  \n Max.   :25.0   Max.   :120.00  \n\n\nsubsection 2\nplots\n\nplot(pressure)",
+    "crumbs": [
+      "Week 14: More Than 1 Outcome"
+    ]
+  },
+  {
+    "objectID": "week14.html#r-code-for-this-module",
+    "href": "week14.html#r-code-for-this-module",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "R Code For This Module",
+    "text": "R Code For This Module\nadd later maybe",
+    "crumbs": [
+      "Week 14: More Than 1 Outcome"
+    ]
+  },
+  {
+    "objectID": "week14.html#references",
+    "href": "week14.html#references",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "References",
+    "text": "References\n\n\nHorst, Allison, Alison Hill, and Kristen Gorman. 2022. Palmerpenguins: Palmer Archipelago (Antarctica) Penguin Data. https://allisonhorst.github.io/palmerpenguins/.\n\n\nR Core Team. 2025. R: A Language and Environment for Statistical Computing. Vienna, Austria: R Foundation for Statistical Computing. https://www.R-project.org/.\n\n\nWickham, Hadley. 2016. Ggplot2: Elegant Graphics for Data Analysis. Springer-Verlag New York. https://ggplot2.tidyverse.org.\n\n\nWickham, Hadley, Winston Chang, Lionel Henry, Thomas Lin Pedersen, Kohske Takahashi, Claus Wilke, Kara Woo, Hiroaki Yutani, Dewey Dunnington, and Teun van den Brand. 2024. Ggplot2: Create Elegant Data Visualisations Using the Grammar of Graphics. https://ggplot2.tidyverse.org.\n\n\nWickham, Hadley, Romain François, Lionel Henry, Kirill Müller, and Davis Vaughan. 2023. Dplyr: A Grammar of Data Manipulation. https://dplyr.tidyverse.org.",
+    "crumbs": [
+      "Week 14: More Than 1 Outcome"
+    ]
+  },
+  {
+    "objectID": "week14.html#other-helpful-resources",
+    "href": "week14.html#other-helpful-resources",
+    "title": "Emory NRSG 736: Quantitative Analysis of Clinical Research Data",
+    "section": "Other Helpful Resources",
+    "text": "Other Helpful Resources\nother stuff here maybe",
+    "crumbs": [
+      "Week 14: More Than 1 Outcome"
     ]
   }
 ]
